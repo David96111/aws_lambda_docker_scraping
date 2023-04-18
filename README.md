@@ -6,7 +6,6 @@
 
 # Local Test
   
-  curl --header "Content-Type: application/json" \
-    --request POST \
-    --data '{}' \
-    http://localhost:9000/2015-03-31/functions/function/invocations
+  \
+
+  `curl --header "Content-Type: application/json" --request POST --data '{}' http://localhost:9000/2015-03-31/functions/function invocations`
